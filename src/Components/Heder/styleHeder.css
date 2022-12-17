@@ -1,0 +1,36 @@
+.heder{
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+    gap: 16px;
+    font-size: 25px;
+    width: 100%;
+    padding: 1.8vh 0 2vh 0;
+}
+.heder > h1{
+    font-size: 3.8vh;
+    width: 60%;
+    text-align: left;
+}
+img{
+    height: 33px;
+    width: fit-content;
+}
+.ordenar{
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+}
+.ordenar:hover{
+    cursor: pointer;
+    transform: scale(1.2); 
+}
+.ordenarLetra{
+    font-size: 10px;
+    line-height: 12px;
+}
+
+.flechaOrdenar{
+    height: 16px;
+    margin-left: 5px;
+}

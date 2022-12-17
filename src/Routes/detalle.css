@@ -1,0 +1,249 @@
+.contenedorDetalle{
+    height: 670px;
+    width: 360px;
+    border-radius: 8px;
+    
+}
+.pokeball{
+    position: relative;
+    top: 15px;
+    left: 65px;
+    height: 208px;
+    opacity: 0.15;
+    filter: invert(100%);
+}
+
+.encabezadoDetalle{
+    position: relative;
+    bottom: 200px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.nombreDetalle{
+    font-size: 24px;
+    margin-right: 80px;
+}
+.numeroDetalle{
+    color: white;
+    font-size: 12PX;
+    display: flex;
+    align-items:center;
+    justify-content: left;
+}
+.divArrow{
+    width: 85px;
+    display: flex;
+    align-content: center;
+}
+.divNumero{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 20px;
+    width: 189px;
+}
+.fotoDetalle{
+    width: auto;
+    height: 200px;
+    position: relative;
+    bottom: 155px;
+    z-index: 2;
+}
+.anterior{
+    position: relative;
+    width: 8px;
+    height: 16px;
+    right: 55px;
+    bottom: 240px;
+    rotate: 180deg;
+}
+.siguiente{
+    position: relative;
+    width: 8px;
+    height: 16px;
+    left: 260px;
+    bottom: 240px;
+
+}
+.arrow{
+    margin-right: 10px;
+    margin-left: 5px;
+    height: auto;
+    width: 20px;
+}
+svg{
+    margin-right: 10px;
+    margin-left: 5px;
+    height: auto;
+    width: 20px;
+}
+.contenedorInfo{
+    display: flex;
+    padding-top: 10px;
+    flex-direction: column;
+    align-items: flex-end ;
+    padding-top: 56px;
+    background-color: white;
+    position: relative;
+    top: -224px;
+    left: 4px;
+    border-radius: 8px;
+    height: 385px;
+    width: 352px;
+}
+
+.infoModal{
+    display: flex;
+    align-items: center;
+    flex-direction:column;
+    gap: 12px;
+    height: 356px;
+    z-index: 1;
+}
+.tipoPokemon{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.etiqueta{
+    margin: 1vh;
+    font-size: 11px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    width: max-content;
+    padding: 0 5px 0 5px;
+    height: 20px;
+}
+.subtitulo{
+    font-size: 14px;
+}
+.caracteristicas{
+    display: flex;
+    justify-content: center;
+    height: 48px;
+    width: 270px;
+
+}
+.caracteristicas > section{
+    width:80px;
+}
+.sectCaract{
+    font-size: x-small;
+}
+
+.iconoDetalle{
+    height: 16px;
+}
+.bloquePeso, .bloqueAltura{   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+    width: 66px;
+    height: 48px;
+    padding-right: 12px;
+    padding-left: 12px;
+    font-size: 10px;
+    border-right-style: solid;
+    border-width: 1px;
+    border-color: #b7b6b6;
+}
+.bloqueMovimientos{
+    padding-right: 12px;
+    padding-left: 12px;
+    text-align: justify;
+    margin-left: 10px;
+    width: 80px;
+}
+.pCaracteristicas{
+    color: gray;
+}
+.peso, .altura{
+    display: flex;
+    gap: 3px;
+    font-size: 10px;
+    font-weight: 400;
+}
+.movimientos{
+    display: flex;
+    flex-direction: column;
+    line-height: 12px;
+}
+
+.descripcionDetalle{
+    font-size: 10px;
+    text-align: justify;
+    padding-left: 21px;
+    padding-right: 21px;
+    line-height: 15px;
+    margin-top: 5px;
+}
+.baseStats{
+    display: flex;
+    width: 90%;
+    gap: 8px;
+    height: 100px;
+    justify-content: center;
+}
+.estadistica{
+    display: flex;
+    flex-direction: column;
+    font-size:10px;
+    line-height: 16px;
+    font-weight: 700;
+    margin: 0 5% 0 0;
+    text-align: right;
+    border-right-style: solid;
+    border-width: 1px;
+    border-color: #b7b6b6;
+}
+.estadistica > p{
+    margin-right: 15px;
+}
+.valor{
+    display: flex;
+    flex-direction: column;
+    font-size:10px;
+    line-height: 16px;
+}
+.barra{
+    width: 180px;
+
+}
+.barraEstadistica{
+    width: 231px;
+    height: 1px;
+
+}
+.barradiv{
+    padding: 6px 0;
+}
+
+@media only screen and (max-width: 391px) {
+.contenedorDetalle{
+    height: 100vh;
+    width: 100vw;
+    border-radius: 0;
+}
+.contenedorInfo{
+    position: relative;
+    top: -224px;
+    left: 19px;
+    height: 400px;
+    padding: 0;
+
+ 
+}
+.infoModal{
+    background-color: rgba(255, 255, 255, 0.3);
+    height: 400px;
+    border-radius: 8px;
+    padding-top: 50px;
+}
+    }
