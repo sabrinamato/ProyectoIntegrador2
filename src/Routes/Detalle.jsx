@@ -43,12 +43,36 @@ function Modal() {
         </div>
         {idPokemon !== "1" && (
           <Link to={`/pokemon/${parseInt(idPokemon) - 1}`} replace>
-            <img src="/Recursos/Frame.svg" alt="" className="anterior" />
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="8"
+              height="16"
+              fill="none"
+              viewBox="0 0 8 16"
+              className="anterior"
+            >
+              <path
+                fill="#FFFF"
+                d="m.772 1.19-.619.62a.375.375 0 0 0 0 .53L5.8 8 .153 13.66a.375.375 0 0 0 0 .53l.619.62a.375.375 0 0 0 .53 0l6.545-6.545a.375.375 0 0 0 0-.53L1.302 1.19a.375.375 0 0 0-.53 0Z"
+              />
+            </svg>
           </Link>
         )}
         {idPokemon !== "9" && (
           <Link to={`/pokemon/${parseInt(idPokemon) + 1}`} replace>
-            <img src="/Recursos/Frame.svg" alt="" className="siguiente" />
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="8"
+              height="16"
+              fill="none"
+              viewBox="0 0 8 16"
+              className="siguiente"
+            >
+              <path
+                fill="#FFFF"
+                d="m.772 1.19-.619.62a.375.375 0 0 0 0 .53L5.8 8 .153 13.66a.375.375 0 0 0 0 .53l.619.62a.375.375 0 0 0 .53 0l6.545-6.545a.375.375 0 0 0 0-.53L1.302 1.19a.375.375 0 0 0-.53 0Z"
+              />
+            </svg>
           </Link>
         )}
 
