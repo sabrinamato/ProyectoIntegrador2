@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import "../Heder/styleHeder.css";
+import "./styleHeder.css";
 
 function Heder(props) {
   const [estadoOrdenar, setEstadoOrdenar] = useState(false);
@@ -23,13 +23,13 @@ function Heder(props) {
         <div>
           {estadoOrdenar ? (
             <p className="ordenarLetra">
-              A <br /> Z 
+              A <br /> Z
             </p>
           ) : (
             <p>#</p>
           )}
         </div>
-          <img src="/Recursos/Arrow.svg" alt="" className="flechaOrdenar" />
+        <img src="/Recursos/Arrow.svg" alt="" className="flechaOrdenar" />
       </div>
     </div>
   );
